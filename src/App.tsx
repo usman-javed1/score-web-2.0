@@ -1,13 +1,11 @@
 
 import './App.css'
-
+import Score from './Components/Score'
 function App() {
 
   return (
-    <div className='font-bold text-white bg-backgroundLight min-h-screen'>
-      
-      Hello Score
-      <img src="/vite.svg" alt="" />
+    <div className=' text-white bg-backgroundLight min-h-screen'>
+     <Score />
     </div>
   )
 }
